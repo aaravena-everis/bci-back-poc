@@ -1,0 +1,27 @@
+{
+  "name": "bci-server",
+  "version": "1.0.0",
+  "description": "Module that provides services of the bci-server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ngajardo",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "method-override": "^2.3.8",
+    "q": "^1.5.0"
+  },
+  "apidoc": {
+    "title": "API Documentation bci-server"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.9",
+    "underscore": "^1.8.3"
+  }
+}
